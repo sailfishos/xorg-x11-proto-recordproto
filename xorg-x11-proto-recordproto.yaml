@@ -1,0 +1,14 @@
+Name: xorg-x11-proto-recordproto
+Summary: X.Org X11 Protocol recordproto
+Version: 1.14
+Release: 0
+Group: Development/System
+License: MIT
+URL: http://www.x.org
+Sources:
+    - http://xorg.freedesktop.org/releases/individual/proto/recordproto-%{version}.tar.bz2
+
+Provides: recordproto
+Configure: configure
+ConfigOptions:
+    - --libdir=%{_datadir}
